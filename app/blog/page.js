@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -29,16 +32,16 @@ const About = () => {
               <span className="text-2xl mr-3">☕</span>
               <h3 className="text-xl font-bold text-blue-600">The Java Awakening</h3>
               <div className="ml-auto flex gap-2">
-                <img src="https://img.shields.io/badge/Java-Intermediate-orange" alt="Java" className="h-6" />
-                <img src="https://img.shields.io/badge/OOP-Understood-blue" alt="OOP" className="h-6" />
+                <Image src="https://img.shields.io/badge/Java-Intermediate-orange" alt="Java" width={90} height={24} className="h-6 w-auto" />
+                <Image src="https://img.shields.io/badge/OOP-Understood-blue" alt="OOP" width={90} height={24} className="h-6 w-auto" />
               </div>
             </div>
-            <p className="text-gray-700 mb-4">
-              "My first encounter with Java felt like trying to read Shakespeare as a toddler! 
+            <p className="text-gray-700 mb-4"> 
+              &quot;My first encounter with Java felt like trying to read Shakespeare as a toddler! 
               <span className="block my-2 border-l-4 border-blue-300 pl-4 italic text-blue-700">
-                "Why does 'public static void main(String[] args)' need to be so long?" - Me, 2am debugging
+                Why does &apos;public static void main(String[] args)&apos; need to be so long? - Me, 2am debugging
               </span>
-              Then I discovered <span className="font-semibold text-blue-600">CodeWithHarry</span>'s Java series where he compared classes to cookie cutters and objects to cookies. Suddenly, OOP made delicious sense!"
+              Then I discovered <span className="font-semibold text-blue-600">CodeWithHarry</span>&apos;s Java series where he compared classes to cookie cutters and objects to cookies. Suddenly, OOP made delicious sense!&quot;
             </p>
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-semibold text-blue-800 mb-2 flex items-center">
@@ -52,6 +55,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
 
         {/* Chapter 2: Python */}
         <div className="relative pl-12 mb-16">

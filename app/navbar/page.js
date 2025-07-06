@@ -170,14 +170,23 @@ const Page = () => {
                     </Link>
                   </motion.div>
                 ))}
-                <motion.button
-                
-                  className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-lg text-lg font-medium mt-4"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  Download Resume
-                </motion.button>
+                <a
+  href="https://drive.google.com/file/d/1wNIcKhutV5PEYag76qP8ve1E9mvoPdtj/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-3 rounded-lg text-lg font-medium mt-4"
+    whileHover={{ scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+  >
+    Download Resume
+  </motion.button>
+</a>
+
+
+
+      
               </motion.div>
             </motion.div>
           </motion.div>

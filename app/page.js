@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Page = () => {
   // Skills with icons
@@ -159,9 +160,11 @@ const Page = () => {
           variants={containerVariants}
         >
           <motion.div variants={itemVariants} className="relative group  mt-10 md:mt-0">
-            <img
+            <Image
               src="/Mohit kumar yadav.jpg"
               alt="Mohit"
+              width={224}
+              height={224}
               className="w-56 h-56 rounded-full object-cover shadow-xl border-4 border-white ring-2 ring-indigo-200 group-hover:ring-4 group-hover:ring-indigo-300 transition-all duration-300"
             />
             <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-indigo-300 opacity-0 group-hover:opacity-100 transition-all duration-500 -z-10 animate-spin-slow"></div>
@@ -195,9 +198,11 @@ const Page = () => {
                   variants={itemVariants}
                   whileHover={{ scale: 1.05 }}
                 >
-                  <img
+                  <Image
                     src={item.icon}
                     alt={item.name}
+                    width={20}
+                    height={20}
                     className="w-5 h-5 object-contain opacity-90 group-hover:opacity-100 group-hover:scale-110 transition"
                   />
                   <span className="text-sm font-semibold text-gray-800 tracking-wide">
@@ -230,9 +235,11 @@ const Page = () => {
                 variants={itemVariants}
               >
                 <div className="w-14 h-14 mb-3 flex items-center justify-center bg-gray-50 rounded-lg p-2">
-                  <img
+                  <Image
                     src={skill.icon}
                     alt={skill.name}
+                    width={40}
+                    height={40}
                     className="w-10 h-10 object-contain"
                   />
                 </div>
@@ -297,9 +304,11 @@ const Page = () => {
                       {/* Project Image */}
                       {p.image && (
                         <div className="relative h-56 overflow-hidden">
-                          <img
+                          <Image
                             src={p.image}
                             alt={p.title}
+                            width={600}
+                            height={300}
                             className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                           />
                           {p.tag && (
@@ -369,7 +378,7 @@ const Page = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h3 className="text-xl font-semibold text-gray-700 mb-4">Let's Build Something Amazing Together</h3>
+          <h3 className="text-xl font-semibold text-gray-700 mb-4">Let&apos;s Build Something Amazing Together</h3>
           <p className="text-gray-500 mb-6 max-w-2xl mx-auto">
             Have a project in mind or want to discuss potential opportunities? Feel free to reach out!
           </p>
@@ -382,9 +391,11 @@ const Page = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow hover:shadow-md hover:bg-indigo-50 transition"
               >
-                <img
+                <Image
                   src={item.icon}
                   alt={item.name}
+                  width={20}
+                  height={20}
                   className="w-5 h-5 object-contain opacity-80 hover:opacity-100"
                 />
               </a>

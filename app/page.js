@@ -45,6 +45,17 @@ const Page = () => {
       tag: "Major"
     },
     {
+      title: "Cloud-Notebook",
+      tech: ["React.js", "Context API", "Node.js", "MongoDB"],
+      description:
+        "Cloud-Notebook is a secure, full-stack note-taking app that supports user authentication, text and image uploads, and complete CRUD operations — all in a clean, responsive UI",
+      code: "https://github.com/Mohithh/inotebook",
+      file: "https://cloud-notebookk.vercel.app/",
+      category: "major",
+      image: "/iNodebook _ you data has been Encrypted - Google Chrome 06-07-2025 11_33_17.png",
+      tag: ""
+    },
+    {
       title: "Portfolio Website",
       tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
       description:
@@ -55,17 +66,7 @@ const Page = () => {
       image: "/Mohithh_Frontend-design - Google Chrome 05-07-2025 20_12_49.png",
       tag: ""
     },
-    {
-      title: "iNotebook – Note Taking App",
-      tech: ["React.js", "Context API", "Node.js", "MongoDB"],
-      description:
-        "A secure cloud-based note-taking app with full user auth & CRUD.",
-      code: "https://github.com/Mohithh/inotebook",
-      file: "https://drive.google.com/file/d/1c_oLXPuT-Kaucrf1mzcFe2zPPiA_CWRM/view?usp=sharing",
-      category: "major",
-      image: "/iNodebook _ you data has been Encrypted - Google Chrome 06-07-2025 11_33_17.png",
-      tag: ""
-    },
+    
     {
       title: "UI Components Library",
       tech: ["React.js", "Tailwind CSS"],
@@ -355,7 +356,7 @@ const Page = () => {
                               rel="noopener noreferrer"
                               className="flex-1 text-center text-sm bg-gray-100 text-gray-700 px-4 py-2.5 rounded-lg hover:bg-gray-200 transition font-medium"
                             >
-                              View Details
+                              Go to Live
                             </a>
                           )}
                         </div>

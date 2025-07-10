@@ -22,13 +22,24 @@ const Page = () => {
   ];
 
   const project = [
+     {
+      title: "Cloud-Notebook",
+      tech: ["React.js", "Context API", "Node.js", "MongoDB"],
+      description:
+        "Cloud-Notebook is a secure, full-stack note-taking app that supports user authentication, text and image uploads, and complete CRUD operations — all in a clean, responsive UI",
+      code: "https://github.com/Mohithh/Cloud-Notebook",
+      file: "https://cloud-notebookk.vercel.app/",
+      category: "major",
+      image: "/iNodebook _ you data has been Encrypted - Google Chrome 06-07-2025 11_33_17.png",
+      tag: ""
+    },
     {
       title: "ProConnect – Professional Networking",
       tech: ["MERN Stack", "Cloudinary", "JWT Auth", "Socket.io"],
       description:
         "A secure and interactive networking platform for professionals and students...",
       code: "https://github.com/Mohithh/ExpertMate",
-      file: "https://drive.google.com/file/d/1R1XDxyRyVbH6waeZ_KNsjPL2mIXWheMh/view",
+      file: "https://expert-mate.vercel.app/",
       category: "major",
       image: "/SettleSmart Solutions - Google Chrome 19-05-2025 18_14_19.png",
       tag: "Major"
@@ -44,24 +55,14 @@ const Page = () => {
       image: "/localhost_3000_signup - Google Chrome 21-06-2025 19_47_42.png",
       tag: "Major"
     },
-    {
-      title: "Cloud-Notebook",
-      tech: ["React.js", "Context API", "Node.js", "MongoDB"],
-      description:
-        "Cloud-Notebook is a secure, full-stack note-taking app that supports user authentication, text and image uploads, and complete CRUD operations — all in a clean, responsive UI",
-      code: "https://github.com/Mohithh/inotebook",
-      file: "https://cloud-notebookk.vercel.app/",
-      category: "major",
-      image: "/iNodebook _ you data has been Encrypted - Google Chrome 06-07-2025 11_33_17.png",
-      tag: ""
-    },
+    
     {
       title: "Portfolio Website",
       tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
       description:
         "A modern portfolio website with transitions, animations, and responsive layout.",
       code: "https://github.com/Mohithh/Portfolio-Website",
-      file: "https://drive.google.com/file/d/1yzCTMnBOtIOHmWHZvHaE81uWfFZpsJV3/view?usp=sharing",
+      file: "https://mohityyadav.vercel.app/",
       category: "major",
       image: "/Mohithh_Frontend-design - Google Chrome 05-07-2025 20_12_49.png",
       tag: ""

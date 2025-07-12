@@ -7,7 +7,7 @@ const About = () => {
     <section className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 mt-8 sm:mt-16">
       {/* Story Header */}
       <div className="text-center mb-8 sm:mb-16">
-        <h2 className="text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mb-3 sm:mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600 mb-3 sm:mb-4 mt-7 sm:mt-0 ">
           My Coding Odyssey
         </h2>
         <p className="text-base sm:text-lg text-gray-600 px-2 sm:px-0">

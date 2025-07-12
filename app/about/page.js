@@ -6,7 +6,7 @@ const About = () => {
     <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 lg:py-24 text-gray-800">
       {/* Header */}
       <div className="text-center mb-12 md:mb-20">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 mb-4 animate-fade-in">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600 mb-1 md:mb-1 animate-fade-in mt-9 md:mt-0">
           About Me
         </h2>
         <div className="w-20 md:w-24 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 mx-auto rounded-full"></div>

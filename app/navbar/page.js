@@ -171,7 +171,7 @@ const Page = () => {
                   </motion.div>
                 ))}
                 <a
-  href="https://drive.google.com/file/d/1wNIcKhutV5PEYag76qP8ve1E9mvoPdtj/view?usp=drive_link"
+  href="https://drive.google.com/file/d/17K1qwOs3FvNTRJTD2mSgpozlT4a5FQ9f/view?usp=drive_link"
   target="_blank"
   rel="noopener noreferrer"
 >

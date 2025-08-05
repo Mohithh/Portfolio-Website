@@ -201,7 +201,7 @@ const Page = () => {
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 bg-white px-5 py-3 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+                  className="flex items-center gap-2 bg-white px-5 py-3 md:px-7 md:py-4 rounded-xl shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
                   variants={itemVariants}
                   whileHover={{ scale: 1.05 }}
                 >

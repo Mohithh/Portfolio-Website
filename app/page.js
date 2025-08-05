@@ -106,13 +106,18 @@ const Page = () => {
   // Social links
   const socialLinks = [
     {
+      name: "Resume",
+      icon: "/rresume.jpg",
+      url: "https://drive.google.com/file/d/1L7kvDgZ8cHnuyhEGPDAgGfpy2msOJuBv/view",
+    },
+    {
       name: "LinkedIn",
       icon: "/linkedin.png",
       url: "https://www.linkedin.com/in/mohit-kumar-yadav-898711230/",
     },
     {
       name: "GitHub",
-      icon: "/github.png",
+      icon: "/github.png", 
       url: "https://github.com/Mohithh",
     },
     {

@@ -87,7 +87,7 @@ const Page = () => {
       code: "#",
       file: "#",
       category: "upcoming",
-      image: "/underdevelopmentlogo.webp",
+      image: "/soon.avif",
       tag: "Under Development"
     },
     {
@@ -98,7 +98,7 @@ const Page = () => {
       code: "#",
       file: "#",
       category: "upcoming",
-      image: "/underdevelopmentlogo.webp",
+      image: "/soon.avif", 
       tag: "Not Started Yet"
     }
   ];

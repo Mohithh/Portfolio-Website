@@ -108,7 +108,7 @@ const Page = () => {
     {
       name: "Resume",
       icon: "/rresume.jpg",
-      url: "https://drive.google.com/file/d/1L7kvDgZ8cHnuyhEGPDAgGfpy2msOJuBv/view",
+      url: "https://drive.google.com/file/d/1LMfIqNfA7JBqdTeyVizJAzKvK-3rEsxV/view?usp=drive_link",
     },
     {
       name: "LinkedIn",
